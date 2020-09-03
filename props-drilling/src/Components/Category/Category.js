@@ -3,7 +3,7 @@ import CategoryDetail from '../CategoryDetail/CategoryDetail'
 import { CategoryContext } from '../../App';
 
 const Category = () => {
-    const category = useContext(CategoryContext)
+    const [category] = useContext(CategoryContext)
     
     
     return (

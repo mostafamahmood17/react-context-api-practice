@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { CategoryContext } from '../../App';
 
 const Category = () => {
-    const category = useContext(CategoryContext)
+    const [category] = useContext(CategoryContext)
     return (
         <div>
             <h4>Select Count :{category} </h4>
